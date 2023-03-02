@@ -5,9 +5,13 @@ is this
   (* *) hi | usr =>  oreo@gentoo
  (")_(")   | krn =>  6.1.5-gentoo-dist
  ```
- with colors
+with colors
  
- setup:
+setup:
+ <br>
+ get the `fish` shell
+ <br>
+ clone this repo
  ```
  ~ >>> git clone https://github.com/oreo-zip/fetch.sh
  cloning into 'fetch.sh'...
@@ -15,7 +19,7 @@ is this
  ~/fetch.sh >>> cp fetch.sh ~/.local/bin
  ~/fetch.sh >>> echo "fetch.sh" >> ~/.shellrc
  ```
- copy n' paste:
+copy n' paste:
  ```
  git clone https://github.com/oreo-zip/fetch.sh
  cd fetch.sh
