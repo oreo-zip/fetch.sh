@@ -1,21 +1,24 @@
 # fetch.sh
+is this
 ```
-   n n     | sh   =>  /bin/fish
-  (* *) hi | user =>  oreo@gentoo
- (")_(")   | krn  =>  6.1.5-gentoo-dist
+   n n     | shl =>  /bin/fish
+  (* *) hi | usr =>  oreo@gentoo
+ (")_(")   | krn =>  6.1.5-gentoo-dist
  ```
+ with colors
+ 
  setup:
  ```
  ~ >>> git clone https://github.com/oreo-zip/fetch.sh
  cloning into 'fetch.sh'...
  ~ >>> cd fetch.sh
- /h/o/fetch.sh >>> cp fetch.sh ~/.local/bin
- /h/o/fetch.sh~ >>> echo "fetch.sh" >> ~/.shellrc
+ ~/fetch.sh >>> cp fetch.sh ~/.local/bin
+ ~/fetch.sh >>> echo "fetch.sh" >> ~/.shellrc
  ```
  copy n' paste:
  ```
  git clone https://github.com/oreo-zip/fetch.sh
  cd fetch.sh
  cp fetch.sh ~/.local/bin
- echo "fetch.sh" >> ~/.shellrc
+ echo "fetch.sh" >> ~/.$($SHELL)rc
  ```
